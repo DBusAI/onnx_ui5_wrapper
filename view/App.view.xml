@@ -1,0 +1,21 @@
+<mvc:View xmlns:ulc="sap.gantt.shape.ext.ulc" controllerName="demo.onnx.controller.App"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form">
+	<App id="app">
+		<pages>
+			<Page id="page" title="{i18n>title}">
+				<content>
+					<f:SimpleForm editable="true">
+						<Label text="cat1"></Label>
+						<Input width="50%" valueLiveUpdate="true" value="{/cat1}"></Input>
+						<Label text="cat2"></Label>
+						<Input width="50%" valueLiveUpdate="true" value="{/cat2}"></Input>
+						<Label text="target"></Label>
+						<Text text="{/target}" />
+					</f:SimpleForm>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
