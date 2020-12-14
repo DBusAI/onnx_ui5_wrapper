@@ -17,7 +17,7 @@ The data this model based on:
 
 | Cat1  | Cat2 | Target |
 | ----- | ---- | ------ |
-|   1   |  1   |   2    |
+|   1   |  3   |   3    |
 |   1   |  4   |   1    |
 |   2   |  2   |   4    |
 
